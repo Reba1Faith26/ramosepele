@@ -1,0 +1,30 @@
+/*coding for info-section start here*/
+.info-section{
+    
+    color:white;
+    height:40px;
+}
+.social-logo{
+    float:right;
+    margin-right:10px;
+    line-height:40px;
+}
+/*coding for info-section ended here*/
+/*coding for computer navigation start here*/
+nav{
+    height:50px;
+    color:black !important;
+}
+.computer-li{
+    margin-right:30px;
+}
+/*coding for computer navigation ended here*/
+/*coding for computer main section start here*/
+.img-holder{
+    background-image:url('../images/1.jpeg');
+    background-repeat:no-repeat;
+    height:300px;
+    background-size: cover;
+    background-position-y: center;
+}
+/*coding for computer main section ended here*/
