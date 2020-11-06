@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="container-fluid info-section bg-primary">
+    <section class="container-fluid info-section bg-primary d-none d-sm-none d-md-block d-lg-block d-xl-block">
         <div class="container">
             <li class="d-inline-block social-logo">
                 <a href="#"><i class="fab fa-1x fa-linkedin text-white"></i></a>
@@ -42,7 +42,7 @@
             </li>
         </div>
     </section>
-    <nav class="container-fluid">
+    <nav class="container-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block">
         <div class="container">
             <li class="d-inline-block float-right computer-li">
                 <a href="#" class="font-weight-bold" style="color:black !important;line-height:40px;">
@@ -71,7 +71,7 @@
             </li>
         </div>
     </nav>
-    <main class="main-section d-none d-sm-none d-md-block d-lg-block d-xl-block">
+    <div class="main-section d-none d-sm-none d-md-block d-lg-block d-xl-block">
         <div class="jumbotron jumbotron-fluid bg-warning img-holder">
             <div class="container text-right">
                 <p class="h1  text-white font-weight-bold">
@@ -90,71 +90,128 @@
                     </p>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 text-center">
-                    <p class="h1">1</p>
-                    <p class="h5">
+                    <div class="card pc-card">
+                    <p class="h5 practice card-header font-weight-bold" id="practice1">
                         Commecial Law
-                    </p>
-                    <p class="h6">
+                    </p> <br>
+                    <p class="h6 practiceDetail font-weight-bold" id="practiceDetail1">
                         Contracts, licenses, procurement, tenders, franchising, privacy, risk management and 
                         regulatory advice. <br>
-                        <a href="#">Read More</a>
                     </p>
+                    <a href="#" class="read-more">Read More</a>
+                    </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 text-center ">
-                    <p class="h1">2</p>
-                    <p class="h5 ">
-                        Litigation & Dispute Resolution
-                    </p>
-                    <p class="h6">
+                    <div class="card pc-card ">
+                    <p class="h5 practice card-header font-weight-bold" id="practice2">
+                        Litigation & Dispute 
+                    </p> <br>
+                    <p class="h6 practiceDetail font-weight-bold"id="practiceDetail2">
                         Litigation in all the Courts of South Africa and arbitrations, mediations, letters of demands and 
-                        regulatory advice. <br> <a href="#">Read More</a>
+                        regulatory advice. <br> 
                     </p>
+                    <a href="#" class="read-more">Read More</a>
+                    </div>
                 </div>
                 <div class="col-md-4 col-lg-4 col-xl-4 text-center">
-                    <p class="h1">3</p>
-                    <p class="h5">
+                    <div class="card pc-card">
+                    <p class="h5 practice card-header font-weight-bold" id="practice3">
                         Corporate Law
-                    </p>
-                    <p class="h6">
+                    </p> <br>
+                    <p class="h6 practiceDetail font-weight-bold" id="practiceDetail3">
                         Corporate law is mostly about deals, Initial Public Offerings, takeovers, mergers, trade sales, 
-                        joint ventures and capital raisings <br> <a href="#">Read More</a>
+                        joint ventures and capital raisings <br> 
                     </p>
+                    <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                    <button href="" class="btn btn-sm btn-primary font-weight-bold" id="button_one">
+                        1
+                    </button>
+                    <button href="" class="btn btn-sm btn-primary font-weight-bold" id="button_one">
+                        2
+                    </button>
                 </div>
             </div>
             <br>
-            <div class="row font-weight-bold">
-                <div class="col-md-4 col-lg-4 col-xl-4 text-center">
-                    <p class="h5">
-                        Energy, Mining and Infrastructure
-                    </p>
-                    <p class="h6">
-                        Joint venture agreements, sale and purchase agreements, drilling agreements, service 
-                        agreements <br> <a href="#">Read More</a>
-                    </p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 text-center ">
-                    <p class="h5">
-                        Property law
-                    </p>
-                    <p class="h6">
-                        Commercial leasing, conveyancing, property development <br> <a href="#">Read More</a>
-                    </p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-xl-4 text-center ">
-                    <p class="h5">
-                        Criminal law
-                    </p>
-                    <p class="h6">
-                        24 hours bail applications, drunk driving matters, 
-                        dealing in drugs, assault, theft, illegal 
-                        and much more <br> 
-                        <a href="#">Read More</a>
-                    </p>
-                </div>
+        </div>
+    </div>
+    <!--coding for small devices start here-->
+    <div class=" d-block d-sm-block d-md-none d-lg-none">
+        <div class="container-fluid bg-primary text-right" style="height:40px;">
+            <li class="d-inline-block social-logo-sm">
+                <a href="#"><i class="fab fa-1x fa-twitter text-white"></i></a>
+            </li>
+            <li class="d-inline-block social-logo-sm">
+                <a href="#"><i class="fab fa-1x fa-facebook text-white"></i></a>
+            </li>
+            <li class="d-inline-block social-logo-sm">
+                <a href="#"><i class="fab fa-1x fa-linkedin text-white"></i></a>
+            </li>
+           <li class="d-inline-block" style="float:left;line-height:40px">
+            <p class="text-center"><i class="fas fa-1x fa-bars text-white"></i></p>
+           </li> 
+        </div>
+        <div class="jumbotron jumbotron-fluid bg-warning img-holder-sm">
+            <div class="container text-right">
+                <p class="h5  text-white font-weight-bold">
+                    Welcome To <br> Ramosepele Attorneys <br>
+                </p>
+                <p class="h5  text-white font-weight-bold">
+                    Law Practiced Differently
+                </p>
             </div>
         </div>
-    </main>
+        <div class="container" style="margin-top:-15px;"><br>
+            <div class="row font-weight-bold"><br>
+                <div class="col-12 col-sm-12" style="margin-top:-20px !important;">
+                    <p class="h4 text-center">
+                        Our Practice Areas
+                    </p>
+                </div>
+
+                <div class="col-12 col-sm-12 text-center" style="margin-top:5px">
+                    <div class="card">
+                        <p class=" practice card-header sm " id="practice1">
+                            Commecial Law
+                        </p>
+                        <p class="practiceDetail sm" id="practiceDetail1">
+                            Contracts, licenses, procurement, tenders, franchising, privacy, risk management and 
+                            regulatory advice. <br>
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 text-center" style="margin-top:10px">
+                    <div class="card">
+                        <p class="practice card-header sm " id="practice2">
+                            Litigation & Dispute
+                        </p>
+                        <p class="practiceDetail sm"id="practiceDetail2">
+                            Litigation in all the Courts of South Africa and arbitrations, mediations, letters of demands and 
+                            regulatory advice. <br> 
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 text-center" style="margin-top:10px">
+                    <div class="card">
+                        <p class=" practice sm card-header" id="practice3">
+                            Corporate Law
+                        </p>
+                        <p class="practiceDetail sm" id="practiceDetail3">
+                            Corporate law is mostly about deals, Initial Public Offerings, takeovers, mergers, trade sales, 
+                            joint ventures and capital raisings <br> 
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+    </div>
+    <!--coding for small devices ended here-->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

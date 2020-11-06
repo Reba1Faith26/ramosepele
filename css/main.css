@@ -1,6 +1,5 @@
 /*coding for info-section start here*/
 .info-section{
-    
     color:white;
     height:40px;
 }
@@ -28,3 +27,33 @@ nav{
     background-position-y: center;
 }
 /*coding for computer main section ended here*/
+/*coding for practice section start here*/
+.col-md-4,.pc-card{
+    height:240px;
+}
+#button_one{
+    border-radius:60px;
+    margin-left:20px;
+    margin-top:20px;
+}
+/*coding for practice section ended here*/
+
+/*coding for small devices start here*/
+.social-logo-sm{
+    line-height:40px;
+}
+/*coding for small devices ended here*/
+
+/*coding for image holder */
+.img-holder-sm{
+    background-image:url('../images/1.jpeg');
+    background-repeat:no-repeat;
+    height:150px;
+    background-size:cover;
+    background-position-y: center;
+}
+/*coding for image holder end here*/
+.sm{
+    font-size:15px;
+}
+/*coding for small devices ended here*/
